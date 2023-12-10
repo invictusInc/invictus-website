@@ -4,11 +4,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-const adapter = require("gatsby-adapter-netlify")
 module.exports = {
-  adapter: adapter({
-    excludeDatastoreFromEngineFunction: false,
-  }),
   siteMetadata: {
     siteUrl: "https://gatsbycontentfulhomepage.gatsbyjs.io/",
     title: "Gatsby Contentful Homepage Starter",
@@ -16,6 +12,7 @@ module.exports = {
     description: "A Gatsby Starter for building homepages with Contentful",
   },
   plugins: [
+    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-source-contentful",
       options: {

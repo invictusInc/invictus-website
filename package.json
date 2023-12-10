@@ -41,6 +41,7 @@
     "chalk": "4",
     "contentful-cli": "^1.15.3",
     "contentful-import": "^8.3.2",
+    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-provision-contentful": "^0.0.5",
     "husky": "^7.0.4",
     "inquirer": "^8.2.0",
