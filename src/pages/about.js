@@ -26,19 +26,20 @@ export default function About(props) {
             padding: "100px",
           }}
         >
-          <h1>Whoops! There should be About page content here.</h1>
+          <h1>
+            We stand as an experienced and trustworthy <br />
+            technology ally, ready to help with your <br /> next venture.
+          </h1>
           <div style={{ maxWidth: "700px" }}>
             <p>
-              You're seeing this message because no <code>aboutPage</code>{" "}
-              blocks were found in the about page query result. This is likely
-              because you are using a free Contentful space where restrictions
-              on the number of content types apply.
-            </p>
-            <p>
-              Take a look at the repository <code>README</code> Quick Start
-              section for a note on how to provision your Contentful space with
-              the <code>aboutPage</code> content types included once you have a
-              paid plan.
+              Originally composed of a group of seasoned engineers, CTOs,
+              product designers, and founders, Invictus now employs ten highly
+              skilled engineers. We have contributed significantly to the
+              delivery of more than ten innovative items in recent years. We
+              have established collaborative relationships with a diverse range
+              of inventive startups and large corporations, developing solutions
+              that seamlessly integrate an intuitive user interface with the
+              complex facets of data, cloud, and security.
             </p>
           </div>
         </div>
