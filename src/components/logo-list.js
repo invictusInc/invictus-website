@@ -21,7 +21,7 @@ export default function LogoList(props) {
         )}
         <Space size={4} />
         <FlexList gap={4} variant="center">
-          {props.logos.map(
+          {props.logos?.map(
             (logo) =>
               logo && (
                 <li key={logo.id}>
