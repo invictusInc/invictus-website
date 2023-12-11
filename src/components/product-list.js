@@ -42,7 +42,7 @@ export default function ProductList(props) {
           {props.text && <Text>{props.text}</Text>}
         </Box>
         <FlexList gap={4} variant="responsive">
-          {props.content.map((product) => (
+          {props.content?.map((product) => (
             <li key={product.id}>
               <Product {...product} />
             </li>
