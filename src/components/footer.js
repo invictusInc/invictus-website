@@ -103,7 +103,6 @@ export default function Footer() {
         <Flex variant="start" responsive>
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
           </NavLink>
           <Space />
           <FlexList>
